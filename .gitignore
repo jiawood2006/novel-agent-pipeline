@@ -1,0 +1,37 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── 运行产物（每章的中间产物、进度、记忆库）──
+output/
+**/output/
+progress.json
+memory.json
+*_ch*.md
+*_ch*.json
+
+# 但不要忽略仓库自带示例
+!demo/demo_novel.json
+!demo/demo_world.md
+
+# ── 密钥 / 环境 ──
+.env
+*.key
+*.pem
+secrets.json
+
+# ── 数据库 / 归档 ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── 编辑器 / 系统 ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
