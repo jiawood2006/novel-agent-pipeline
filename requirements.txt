@@ -1,0 +1,11 @@
+# 运行真实 LLM 调用所需依赖（dry-run 无需安装任何依赖）
+#
+# 本项目仅用「标准库」即可完成 --dry-run 全流程预览：
+#     python3 pipeline.py --config demo/demo_novel.json --dry-run
+#
+# 只有在「真实生成」时才需要下面这些：
+
+openai>=1.0            # 任意 OpenAI 兼容接口的客户端（DeepSeek / OpenAI / vLLM / Ollama 等）
+
+# ── 可选增强（非必需） ──
+# networkx>=3.0        # 若要用 NovelMemory.to_networkx() 做图分析
