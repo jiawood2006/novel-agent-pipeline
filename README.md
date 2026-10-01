@@ -1,5 +1,10 @@
 # 多 Agent 小说写作流水线框架
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org)
+[![Dry-run](https://img.shields.io/badge/dry--run-%E6%97%A0%E9%9C%80%20API%20key-success)](README.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
+
 > A config-driven multi-agent framework for writing novels — 7 agents + a 4-graph memory engine.
 
 一个把「写一章小说」拆成**阶段流水线**的开源框架：7 个职责单一的 Agent
@@ -241,6 +246,8 @@ python3 pipeline.py --config demo/demo_novel.json --chapter 1
 MIT licensed. Demo data is fictional and self-authored.
 
 ---
+
+**如果这个框架对你有用，欢迎点个 ⭐ Star / If you find it useful, a ⭐ Star helps a lot.**
 
 ## 十、License
 
